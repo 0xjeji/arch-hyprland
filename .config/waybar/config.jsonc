@@ -15,10 +15,9 @@
     ],
     "modules-right": [
         "backlight/slider",
-        "bluetooth",
-        "clock",
         "network",
         "wireplumber",
+        "clock",
         "battery"
     ]
 
@@ -67,6 +66,13 @@
         "min": 0,
         "max": 100,
         "orientation": "horizontal"
+    },
+    "wireplumber": {
+        "scroll-step": 1,
+        "format": "{icon} {volume}%",
+        "format-icons": ["", "", ""],
+        "format-muted": "",
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
     },
     "battery": {
         "states": {
