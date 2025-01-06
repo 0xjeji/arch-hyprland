@@ -67,12 +67,24 @@
         "max": 100,
         "orientation": "horizontal"
     },
+    "network": {
+        "format-wifi": "󰤨",
+        "format-ethernet": "",
+        "format-disconnected": "󰤭",
+        "interval": 10,
+        "tooltip-format": "{essid} {signalStrength}%"
+    },
     "wireplumber": {
         "scroll-step": 1,
         "format": "{icon} {volume}%",
         "format-icons": ["", "", ""],
         "format-muted": "",
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+    },
+    "clock": {
+        "format": "  {:%H:%M}",
+        "tooltip": "true",
+        "tooltip-format": "{:%Y-%m-%d}"
     },
     "battery": {
         "states": {
