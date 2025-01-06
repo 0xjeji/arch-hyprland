@@ -11,16 +11,15 @@
         "memory"
     ],
     "modules-center": [
-        "hyprland/window",
+        "hyprland/window"
     ],
     "modules-right": [
         "backlight/slider",
-        "battery",
         "bluetooth",
         "clock",
         "network",
         "wireplumber",
-        "upower"
+        "battery"
     ]
 
     //Modules Configuration
@@ -55,8 +54,7 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "interval": 10,
-        "tooltip": false
+        "interval": 10
     },
     "memory": {
         "format": "{percentage}% ",
@@ -69,6 +67,14 @@
         "min": 0,
         "max": 100,
         "orientation": "horizontal"
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""]
     }
-
 }
