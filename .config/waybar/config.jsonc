@@ -64,5 +64,11 @@
     },
     "hyprland/window": {
         "format": "{title}"
+    },
+    "backlight/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
     }
+
 }
