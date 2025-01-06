@@ -1,7 +1,10 @@
-@import "./mocha.css";
 
 * {
-    font-family: 'JetBrains Mono';
-    border: none;
-    font-size: 12px;
+    font-size: 5px;
 }
+
+window#waybar {
+    border-radius: 12px;
+    margin: 16px 16px;
+}
+
