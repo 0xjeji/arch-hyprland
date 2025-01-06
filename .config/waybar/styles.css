@@ -1,0 +1,7 @@
+@import "./mocha.css";
+
+* {
+    font-family: 'JetBrains Mono';
+    border: none;
+    font-size: 12px;
+}
