@@ -28,7 +28,7 @@
     "hyprland/workspaces": {
         "active-only": false,
         "disable-scroll": false,
-        "format": "{icons}",
+        "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
             "1": "",
@@ -55,6 +55,12 @@
                    }
     },
     "cpu": {
-        "format": "
+        "format": "{usage}% ",
+        "interval": 10,
+        "tooltip": false
+    },
+    "memory": {
+        "format": "{percentage}% ",
+        "interval": 10
     }
 }
