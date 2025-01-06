@@ -19,8 +19,7 @@
         "wireplumber",
         "clock",
         "battery"
-    ]
-
+    ],
     //Modules Configuration
     "hyprland/workspaces": {
         "active-only": false,
