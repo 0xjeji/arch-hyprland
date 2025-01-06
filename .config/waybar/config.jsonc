@@ -42,5 +42,19 @@
             "9": "󰆘",
             "10": ""
         }
+    },
+    "cava": {
+        // "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+        "framerate": 30,
+        "autosens": 1,
+        "method": "pipewire",
+        "source": "auto",
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+        "actions": {
+                   "on-click-right": "mode"
+                   }
+    },
+    "cpu": {
+        "format": "
     }
 }
