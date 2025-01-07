@@ -31,7 +31,7 @@ window#waybar {
     background: transparent;
     transition: none;
 }
-/* 
+ 
 #workspaces button:nth-child(1) {
     color: #e78284;
 }
@@ -62,7 +62,7 @@ window#waybar {
 #workspaces button:nth-child(10) {
     color: #1e66f5;
 } 
-*/
+
 
 /*
 #memory,
