@@ -6,18 +6,34 @@
 }
 
 window#waybar {
-    margin: 8px;
     border-radius: 12px;
     background-color: #f5e0dc;
     border: solid;
     border-width: 2px;
-}
+} 
 
+#workspaces {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding-left: 20px;
+}
+#workspace button.active {
+    color: blue;
+}
+#workspaces button:hover {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+/* 
 #workspaces button:nth-child(1) {
     color: #e78284;
-    background-color: #cba6f7;
 }
 #workspaces button:nth-child(2) {
+    background: transparent;
     color: #cba6f7;
 }
 #workspaces button:nth-child(3) {
@@ -31,8 +47,7 @@ window#waybar {
 }
 #workspaces button:nth-child(6) {
     color: #e5c890;
-}
-#workspaces button:nth-child(7) {
+} #workspaces button:nth-child(7) {
     color: #89b4fa;
 }
 #workspaces button:nth-child(8) {
@@ -43,7 +58,9 @@ window#waybar {
 }
 #workspaces button:nth-child(10) {
     color: #1e66f5;
-}
+} 
+*/
+
 /*
 #memory,
 #window,
