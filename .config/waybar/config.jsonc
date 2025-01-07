@@ -32,7 +32,8 @@
     },
     "custom/launcher": {
         "format": "󰈸",
-        "on-click": ""
+        "on-click": "",
+        "tooltip-format": "Do you want to know?"
     },
     "hyprland/workspaces": {
         "active-only": false,
@@ -55,6 +56,10 @@
             "*": 10
         }
     },
+    "hyprland/window": {
+        "format": "{title}",
+        "max-length": 30
+    },
     "cpu": {
         "format": " {usage}%",
         "interval": 10
@@ -63,14 +68,11 @@
         "format": " {percentage}%",
         "interval": 10
     },
-    "hyprland/window": {
-        "format": "{title}",
-        "max-length": 30
-    },
     "backlight": {
         "interval": 1,
         "format": "{icon}",
-        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " "],
+        "tooltip-format": "{percent}%",
+        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " ", "󰖨 "],
         "on-scroll-up": "brightnessctl set +10%",
         "on-scroll-down": "brightnessctl set 10%-"
     },
@@ -94,12 +96,14 @@
         "tooltip-format": "{:%Y-%m-%d}"
     },
     "battery": {
+        "interval": 30,
         "states": {
             "good": 95,
             "warning": 30,
             "critical": 15
         },
         "format": "{icon}{capacity}%",
+        "format-charging": " {capacity}%",
         "format-icons": [" ", " ", " ", " ", " "]
     }
 }

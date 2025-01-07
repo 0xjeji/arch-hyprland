@@ -1,27 +1,45 @@
 @import "./colors/mocha.css";
+ 
 
+/*
 * {
     font-family: 'JetBrains Mono';
-    font-size: 17px;
+    font-size: 1.16rem; 
+     1.16rem about same size as 17px. Original px might be 14.5299 
 }
- 
+*/
+
 window#waybar {
-    border-radius: 12px;
+    border-radius: 1rem;
     background-color: #f5e0dc;
     border: solid;
-    border-width: 2px;
+    border-width: 0.125rem;
 } 
+
 .modules-left {
-    margin-left: 20px;
+    font-size: 1.16rem;
+    font-family: 'JetBrains Mono';
+    margin-left: 1.5rem;
+}
+#window {
+    font-size: 1.16rem;
+    font-family: 'JetBrains mono';
 }
 .modules-right { 
+    font-size: 1.16rem;
+    font-family: 'JetBrains Mono';
+    margin-right: 1.5rem;
 }
 
+#custom-launcher {
+    color: #d20f39;
+}
 #workspaces button {
     border-color: transparent;
     box-shadow: none;
     background: none;
 } 
+
 #workspaces button:nth-child(1) {
     color: #e78284;
 }
@@ -56,9 +74,9 @@ window#waybar {
     color: #45475a;
 }
 
+
 /*
-#memory,
-#window,
+#cpu,
 #backlight,
 #network,
 #wireplumber,
