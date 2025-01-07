@@ -22,7 +22,7 @@ window#waybar {
     margin-left: 1.3rem; 
 }
 #window {
-    font-size: 1.16rem;
+    font-size: 1rem;
     font-family: 'JetBrains mono';
 }
 .modules-right { 
@@ -35,23 +35,32 @@ window#waybar {
     color: #d20f39;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+
+
 }
 #custom-launcher:hover {
     color: #45475a;
+}
+
+#custom-separator {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#workspaces button.active {
+    font-size: 0.8rem;
 }
 #workspaces button {
     border-color: transparent;
     box-shadow: none;
     background: none;
-} 
-
+}
 #workspaces button:nth-child(1) {
     /*border: solid;
     border-width: .125rem;
     border-color: black;
     */
     padding-left: 0.3rem;
-    padding-right: 0.5rem;
     color: #e78284;
 }
 #workspaces button:nth-child(2) {
@@ -87,13 +96,24 @@ window#waybar {
 
 #cpu {
     margin-right: 0.3rem;
+    font-size: 1rem;
 }
-
+#memory {
+    font-size: 1rem;
+}
+#wireplumber {
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+#battery {
+    font-size: 1rem;
+}
+#clock {
+    font-size: 1rem;
+}
 /*
 #backlight,
 #network,
-#wireplumber,
-#clock,
-#battery,
 */
 
