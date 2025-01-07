@@ -6,6 +6,22 @@
 }
 
 window#waybar {
+    margin: 8px;
     border-radius: 12px;
+    background-color: pink;
 }
 
+/*
+#workspaces,
+#memory,
+#window,
+#backlight,
+#network,
+#wireplumber,
+#clock,
+#battery,
+*/
+
+#cpu {
+    background-color: white;
+}
