@@ -11,24 +11,21 @@ window#waybar {
     border: solid;
     border-width: 2px;
 } 
+.modules-left {
+    margin-left: 20px;
+}
+.modules-right { 
+}
 
-#workspaces {
-    padding-left: 20px;
-} 
 #workspaces button {
     border-color: transparent;
     box-shadow: none;
     background: none;
-}
-#workspaces button:hover {
 } 
- 
-/*
 #workspaces button:nth-child(1) {
     color: #e78284;
 }
 #workspaces button:nth-child(2) {
-    background: transparent;
     color: #cba6f7;
 }
 #workspaces button:nth-child(3) {
@@ -55,7 +52,9 @@ window#waybar {
 #workspaces button:nth-child(10) {
     color: #1e66f5;
 } 
-*/
+#workspaces button:hover {
+    color: #45475a;
+}
 
 /*
 #memory,

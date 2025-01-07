@@ -30,6 +30,10 @@
         "format": " | ",
         "tooltip": false
     },
+    "custom/launcher": {
+        "format": "󰈸",
+        "on-click": ""
+    },
     "hyprland/workspaces": {
         "active-only": false,
         "disable-scroll": false,
