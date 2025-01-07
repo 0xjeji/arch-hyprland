@@ -4,7 +4,7 @@
     font-family: 'JetBrains Mono';
     font-size: 17px;
 }
-/* 
+ 
 window#waybar {
     border-radius: 12px;
     background-color: #f5e0dc;
@@ -13,25 +13,26 @@ window#waybar {
 } 
 
 #workspaces {
-    border: none;
-    outline: none;
-    box-shadow: none;
     padding-left: 20px;
-} */
+} 
+/*
 #workspaces button:focus {
     border: none;
     outline: none;
     box-shadow: none;
     background: transparent;
+} */
+#workspaces button {
+    border-color: transparent;
 }
+
 #workspaces button:hover {
-    box-shadow: inherit;
-    text-shadow: inherit;
-    border: none;
-    background: transparent;
-    transition: none;
+    box-shadow: none;
+    text-shadow: none;
+    background: none;
 }
  
+/*
 #workspaces button:nth-child(1) {
     color: #e78284;
 }
@@ -50,7 +51,8 @@ window#waybar {
 }
 #workspaces button:nth-child(6) {
     color: #e5c890;
-} #workspaces button:nth-child(7) {
+}
+#workspaces button:nth-child(7) {
     color: #89b4fa;
 }
 #workspaces button:nth-child(8) {
@@ -62,7 +64,7 @@ window#waybar {
 #workspaces button:nth-child(10) {
     color: #1e66f5;
 } 
-
+*/
 
 /*
 #memory,
