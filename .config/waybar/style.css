@@ -15,22 +15,13 @@ window#waybar {
 #workspaces {
     padding-left: 20px;
 } 
-/*
-#workspaces button:focus {
-    border: none;
-    outline: none;
-    box-shadow: none;
-    background: transparent;
-} */
 #workspaces button {
     border-color: transparent;
-}
-
-#workspaces button:hover {
     box-shadow: none;
-    text-shadow: none;
     background: none;
 }
+#workspaces button:hover {
+} 
  
 /*
 #workspaces button:nth-child(1) {
