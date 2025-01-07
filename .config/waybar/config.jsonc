@@ -2,6 +2,10 @@
 {
     "layer": "top",
     "spacing": 4, // Gaps between modules (4px)
+    "margin-top": 8,
+    "margin-left": 10,
+    "margin-bottom": 0,
+    "margin-right": 10,
 
     "modules-left": [
         "custom/launcher",
@@ -26,10 +30,10 @@
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
-            "1": "",
+            "1": "󰋑",
             "2": "",
             "3": "",
-            "4": "",
+            "4": "󰞅",
             "5": "",
             "6": "",
             "7": "",
@@ -50,7 +54,8 @@
         "interval": 10
     },
     "hyprland/window": {
-        "format": "{title}"
+        "format": "{title}",
+        "max-length": 30
     },
     "backlight": {
         "interval": 1,
