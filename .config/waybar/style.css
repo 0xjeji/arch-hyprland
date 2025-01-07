@@ -4,7 +4,7 @@
     font-family: 'JetBrains Mono';
     font-size: 17px;
 }
-
+/* 
 window#waybar {
     border-radius: 12px;
     background-color: #f5e0dc;
@@ -13,20 +13,23 @@ window#waybar {
 } 
 
 #workspaces {
-    background-color: transparent;
     border: none;
     outline: none;
     box-shadow: none;
     padding-left: 20px;
-}
-#workspace button.active {
-    color: blue;
-}
-#workspaces button:hover {
+} */
+#workspaces button:focus {
+    border: none;
     outline: none;
     box-shadow: none;
+    background: transparent;
+}
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
     border: none;
     background: transparent;
+    transition: none;
 }
 /* 
 #workspaces button:nth-child(1) {
