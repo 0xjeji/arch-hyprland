@@ -75,6 +75,8 @@ window#waybar {
 }
 #workspaces button:nth-child(5) {
     color: #f38ba8;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
 }
 #workspaces button:nth-child(6) {
     color: #e5c890;
