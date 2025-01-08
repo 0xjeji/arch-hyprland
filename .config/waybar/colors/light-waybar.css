@@ -1,4 +1,4 @@
-/*
+/* my light themed waybar ~jeji
 * {
     font-family: 'JetBrains Mono';
     font-size: 1.16rem; 
@@ -8,10 +8,9 @@
 
 window#waybar {
     border-radius: 1rem;
-    background-color: #11111b;
+    background-color: #f5e0dc;
     border: solid;
     border-width: 0.125rem;
-    border-color: #cdd6f4;
 } 
 
 .modules-left {
@@ -20,12 +19,10 @@ window#waybar {
     margin-left: 1.3rem; 
 }
 #window {
-    color: #cdd6f4;
     font-size: 1rem;
     font-family: 'JetBrains mono';
 }
 .modules-right { 
-    color: #cdd6f4;
     font-size: 1.16rem;
     font-family: 'JetBrains Mono';
     margin-right: 1.5rem;
@@ -39,11 +36,10 @@ window#waybar {
 
 }
 #custom-launcher:hover {
-    color: #ccd0da;
+    color: #45475a;
 }
 
 #custom-separator {
-    color: #cdd6f4;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
@@ -68,7 +64,7 @@ window#waybar {
     color: #cba6f7;
 }
 #workspaces button:nth-child(3) {
-    color: #dce0e8;
+    color: #11111b;
 } 
 #workspaces button:nth-child(4) {
     color: #a6adc8;
@@ -92,7 +88,7 @@ window#waybar {
     color: #1e66f5;
 } 
 #workspaces button:hover {
-    color: #ccd0da;
+    color: #45475a;
 }
 
 #cpu {
