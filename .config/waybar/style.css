@@ -1,4 +1,4 @@
-/*
+/* my dark themed waybar ~jeji
 * {
     font-family: 'JetBrains Mono';
     font-size: 1.16rem; 
@@ -35,8 +35,6 @@ window#waybar {
     color: #d20f39;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-
-
 }
 #custom-launcher:hover {
     color: #ccd0da;
@@ -75,8 +73,6 @@ window#waybar {
 }
 #workspaces button:nth-child(5) {
     color: #f38ba8;
-    padding-left: 0.5rem;
-    padding-right: 1rem;
 }
 #workspaces button:nth-child(6) {
     color: #e5c890;
