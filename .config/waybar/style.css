@@ -31,12 +31,12 @@ window#waybar {
     margin-right: 1.5rem;
 }
 
-#custom-launcher {
+#custom-powermenu {
     color: #d20f39;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
-#custom-launcher:hover {
+#custom-powermenu:hover {
     color: #ccd0da;
 }
 
