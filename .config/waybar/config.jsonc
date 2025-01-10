@@ -1,7 +1,7 @@
 // -*- mode: jsonc -*-
 {
     "layer": "top",
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 8, // Gaps between modules (4px)
     "margin-top": 6,
     "margin-left": 10,
     "margin-right": 10,
@@ -15,9 +15,10 @@
         "hyprland/window"
     ],
     "modules-right": [
+        "custom/wallpaper",
+        "custom/separator",
         "cpu",
         "memory",
-        "custom/separator",
         "backlight",
         "network",
         "wireplumber",
@@ -35,6 +36,11 @@
         "format": "󰈸",
         "on-click": "~/.config/rofi/powermenu/type-6/powermenu.sh",
         "tooltip-format": "Do you want to know?"
+    },
+    "custom/wallpaper": {
+        "format": "",
+        "on-click": "~/.config/hypr/scripts/swww_randomize_once.sh ~/wallpapers",
+        "tooltip-format": "Change wallpaper"
     },
     "hyprland/workspaces": {
         "active-only": false,
@@ -59,14 +65,14 @@
     },
     "hyprland/window": {
         "format": "{title}",
-        "max-length": 30
+        "max-length": 22
     },
     "cpu": {
-        "format": " {usage}%",
+        "format": "  {usage}%",
         "interval": 1
     },
     "memory": {
-        "format": " {percentage}%",
+        "format": "  {percentage}%",
         "interval": 5
     },
     "backlight": {
@@ -87,8 +93,8 @@
     "wireplumber": {
         "scroll-step": 1,
         "format": "{icon} {volume}%",
-        "format-icons": ["", ""],
-        "format-muted": " ",
+        "format-icons": [" ", " "],
+        "format-muted": "  ",
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
     },
     "clock": {
@@ -103,7 +109,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon}{capacity}%",
+        "format": "{icon} {capacity}%",
         "format-icons": [" ", " ", " ", " ", " "]
     }
 }

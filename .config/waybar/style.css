@@ -9,8 +9,8 @@
 window#waybar {
     border-radius: 1rem;
     background-color: #11111b;
-    border: solid;
-    border-width: 0.125rem;
+    /* border: solid; */
+    border-width: 0.1rem;
     border-color: #cdd6f4;
 } 
 
@@ -93,11 +93,16 @@ window#waybar {
     color: #ccd0da;
 }
 
+#custom-wallpaper {
+    margin-right: 0.8rem;
+    font-size: 1rem;
+}
 #cpu {
     margin-right: 0.3rem;
     font-size: 1rem;
 }
 #memory {
+    margin-right: 0.3rem;
     font-size: 1rem;
 }
 #wireplumber {
@@ -109,6 +114,9 @@ window#waybar {
     font-size: 1rem;
 }
 #clock {
+    font-size: 1rem;
+}
+#network {
     font-size: 1rem;
 }
 /*
