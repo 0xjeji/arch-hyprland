@@ -44,12 +44,12 @@
     },
     "hyprland/workspaces": {
         "active-only": false,
-        "disable-scroll": false,
+        "disable-scroll": true,
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
             "1": "󰋑",
-            "2": "",
+            "2": "",
             "3": "",
             "4": "󰞅",
             "5": "",
@@ -94,7 +94,7 @@
         "scroll-step": 1,
         "format": "{icon} {volume}%",
         "format-icons": [" ", " "],
-        "format-muted": "  ",
+        "format-muted": "  ",
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
     },
     "clock": {
