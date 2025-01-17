@@ -35,6 +35,7 @@
     "custom/powermenu": {
         "format": "󰈸",
         "on-click": "~/.config/rofi/powermenu/type-6/powermenu.sh",
+        "on-click-right": "killall rofi",
         "tooltip-format": "Do you want to know?"
     },
     "custom/wallpaper": {
