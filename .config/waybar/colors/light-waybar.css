@@ -11,6 +11,7 @@ window#waybar {
     background-color: #f5e0dc;
     border: solid;
     border-width: 0.125rem;
+    border-color: #11111b;
 } 
 
 .modules-left {
@@ -19,27 +20,28 @@ window#waybar {
     margin-left: 1.3rem; 
 }
 #window {
+    color: #11111b;
     font-size: 1rem;
     font-family: 'JetBrains mono';
 }
 .modules-right { 
+    color: #11111b;
     font-size: 1.16rem;
     font-family: 'JetBrains Mono';
     margin-right: 1.5rem;
 }
 
-#custom-launcher {
+#custom-powermenu {
     color: #d20f39;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-
-
 }
-#custom-launcher:hover {
-    color: #45475a;
+#custom-powermenu:hover {
+    color: #ccd0da;
 }
 
 #custom-separator {
+    color: #11111b;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
@@ -91,6 +93,10 @@ window#waybar {
     color: #45475a;
 }
 
+#custom-wallpaper {
+    margin-right: 0.8rem;
+    font-size: 1rem;
+}
 #cpu {
     margin-right: 0.3rem;
     font-size: 1rem;
@@ -107,6 +113,9 @@ window#waybar {
     font-size: 1rem;
 }
 #clock {
+    font-size: 1rem;
+}
+#network {
     font-size: 1rem;
 }
 /*

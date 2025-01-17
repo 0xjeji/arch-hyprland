@@ -10,7 +10,7 @@ window#waybar {
     border-radius: 1rem;
     background-color: #11111b;
     border: solid;
-    border-width: 0.125rem;
+    border-width: 0.1rem;
     border-color: #cdd6f4;
 } 
 
@@ -31,14 +31,12 @@ window#waybar {
     margin-right: 1.5rem;
 }
 
-#custom-launcher {
+#custom-powermenu {
     color: #d20f39;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-
-
 }
-#custom-launcher:hover {
+#custom-powermenu:hover {
     color: #ccd0da;
 }
 
@@ -92,14 +90,20 @@ window#waybar {
     color: #1e66f5;
 } 
 #workspaces button:hover {
-    color: #ccd0da;
+    opacity: 0.5;
 }
 
+
+#custom-wallpaper {
+    margin-right: 0.8rem;
+    font-size: 1rem;
+}
 #cpu {
     margin-right: 0.3rem;
     font-size: 1rem;
 }
 #memory {
+    margin-right: 0.3rem;
     font-size: 1rem;
 }
 #wireplumber {
@@ -113,8 +117,10 @@ window#waybar {
 #clock {
     font-size: 1rem;
 }
+#network {
+    font-size: 1rem;
+}
 /*
 #backlight,
-#network,
 */
 

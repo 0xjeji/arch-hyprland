@@ -9,7 +9,7 @@
 window#waybar {
     border-radius: 1rem;
     background-color: #11111b;
-    /* border: solid; */
+    border: solid;
     border-width: 0.1rem;
     border-color: #cdd6f4;
 } 
@@ -90,8 +90,9 @@ window#waybar {
     color: #1e66f5;
 } 
 #workspaces button:hover {
-    color: #ccd0da;
+    opacity: 0.5;
 }
+
 
 #custom-wallpaper {
     margin-right: 0.8rem;
@@ -121,6 +122,5 @@ window#waybar {
 }
 /*
 #backlight,
-#network,
 */
 
