@@ -94,8 +94,8 @@
     "wireplumber": {
         "scroll-step": 1,
         "format": "{icon} {volume}%",
-        "format-icons": [" ", " "],
-        "format-muted": "  ",
+        "format-icons": ["", ""],
+        "format-muted": " ",
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
     },
     "clock": {
