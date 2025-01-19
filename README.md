@@ -3,3 +3,4 @@
   Your browser does not support the video tag.
 </video>
 
+![Fine,ill write something...](https://github.com/0xjeji/arch-hyprland/blob/main/preview.mp4)
