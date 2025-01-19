@@ -15,7 +15,6 @@
         "hyprland/window"
     ],
     "modules-right": [
-        "custom/wallpaper",
         "backlight",
         "custom/separator",
         "cpu",
@@ -42,7 +41,7 @@
     },
     "custom/wallpaper": {
         "format": "",
-        "on-click": "~/.config/hypr/scripts/swww_randomize_once.sh ~/wallpapers",
+        "on-click": "~/.config/hypr/scripts/change_wallpaper.sh ~/wallpapers",
         "tooltip-format": "Change wallpaper"
     },
     "custom/notification": {

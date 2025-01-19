@@ -6,12 +6,14 @@
 }
 */
 
+@import '../../.cache/wal/colors-waybar.css';
+
 window#waybar {
     border-radius: 1rem;
-    background-color: #11111b;
+    background-color: @background;
     border: solid;
-    border-width: 0.1rem;
-    border-color: #cdd6f4;
+    /* border-width: 0.1rem; */
+    border-color: @color14;
 } 
 
 .modules-left {
@@ -20,12 +22,12 @@ window#waybar {
     margin-left: 1.3rem; 
 }
 #window {
-    color: #cdd6f4;
+    color: @color4;
     font-size: 1rem;
     font-family: 'JetBrains mono';
 }
 .modules-right { 
-    color: #cdd6f4;
+    color: @color14;
     font-size: 1.16rem;
     font-family: 'JetBrains Mono';
     margin-right: 1.5rem;
@@ -37,11 +39,11 @@ window#waybar {
     padding-right: 0.5rem;
 }
 #custom-powermenu:hover {
-    color: #ccd0da;
+    color: @color3;
 }
 
 #custom-separator {
-    color: #cdd6f4;
+    color: @color6;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }

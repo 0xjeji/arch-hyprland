@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This script will randomly select a file from a directory and set it
-# up as the wallpaper.
+# up as the wallpaper. It will also change colors using pywal
 
 if [[ $# -lt 1 ]] || [[ ! -d $1 ]]; then
     echo "Usage:
@@ -17,3 +17,7 @@ img=$(find "$1" -type f | shuf -n 1)
 
 # Set the selected image as the wallpaper using swww
 swww img "$img" --transition-type wipe --transition-duration 1.5
+wal -i "$img"
+
+# update waybar
+killall waybar; waybar &
