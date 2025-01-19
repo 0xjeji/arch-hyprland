@@ -100,11 +100,11 @@ window#waybar {
 }
 #cpu {
     margin-right: 0.3rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 #memory {
     margin-right: 0.3rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 #wireplumber {
     font-size: 1rem;
@@ -118,6 +118,9 @@ window#waybar {
     font-size: 1rem;
 }
 #network {
+    font-size: 1rem;
+}
+#custom-notification {
     font-size: 1rem;
 }
 /*

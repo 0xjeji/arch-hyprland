@@ -16,15 +16,17 @@
     ],
     "modules-right": [
         "custom/wallpaper",
+        "backlight",
         "custom/separator",
         "cpu",
         "memory",
-        "backlight",
         "network",
         "wireplumber",
         "battery",
         "custom/separator",
-        "clock"
+        "clock",
+        "custom/separator",
+        "custom/notification"
     ],
 
     //Modules Configuration
@@ -42,6 +44,10 @@
         "format": "",
         "on-click": "~/.config/hypr/scripts/swww_randomize_once.sh ~/wallpapers",
         "tooltip-format": "Change wallpaper"
+    },
+    "custom/notification": {
+        "format": "",
+        "on-click": "swaync-client -op"
     },
     "hyprland/workspaces": {
         "active-only": false,
