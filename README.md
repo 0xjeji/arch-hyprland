@@ -8,7 +8,6 @@ https://github.com/user-attachments/assets/0d211a40-8c17-4417-a28f-7d3cbb551bba
 - hyprlock
 - hypridle
 - swaync
-- dolphin
 - rofi
 - hyprpolkitagent
 - nwg-look (add the paprius icons)
@@ -17,7 +16,11 @@ https://github.com/user-attachments/assets/0d211a40-8c17-4417-a28f-7d3cbb551bba
 - nvim
 - vesktop
 - zen browser
+- cava
+- htop
+- pipes.sh
 - yazi
+- dolphin
 - obs studio
 - vlc (for media)
 - calibre
