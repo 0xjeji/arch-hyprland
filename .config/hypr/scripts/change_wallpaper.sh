@@ -16,7 +16,8 @@ export SWWW_TRANSITION_FPS=60
 img=$(find "$1" -type f | shuf -n 1)
 
 # Set the selected image as the wallpaper using swww
-swww img "$img" --transition-type wipe --transition-duration 1.5
+swww img "$img" --transition-type wipe 
+sleep 2.5
 wal -i "$img"
 
 # update waybar
