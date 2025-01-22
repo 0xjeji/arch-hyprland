@@ -11,6 +11,9 @@ https://github.com/user-attachments/assets/0d211a40-8c17-4417-a28f-7d3cbb551bba
 - rofi
 - hyprpolkitagent
 - nwg-look (add the paprius icons)
+- blueman-manager
+- pwvucontrol (for pipewire)
+- nm-connection-editor
 
 ## optionals
 - nvim
