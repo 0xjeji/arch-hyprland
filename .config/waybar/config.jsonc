@@ -78,7 +78,7 @@
         "interval": 1
     },
     "memory": {
-        "format": "  {percentage}%",
+        "format": "🎞️ {percentage}%",
         "interval": 5
     },
     "backlight": {
