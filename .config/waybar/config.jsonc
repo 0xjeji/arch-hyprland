@@ -76,7 +76,7 @@
     "interval": 1
   },
   "memory": {
-    "format": " {percentage}%",
+    "format": "  {percentage}%",
     "interval": 5
   },
   "backlight": {
@@ -110,7 +110,7 @@
     "format": "{icon} {volume}%",
     "format-icons": [
       "",
-      ""
+      " "
     ],
     "format-muted": " ",
     "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
