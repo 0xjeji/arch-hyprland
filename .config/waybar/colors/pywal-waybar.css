@@ -11,8 +11,8 @@
 window#waybar {
     border-radius: 1rem;
     background-color: @background;
-    border: solid;
-    /* border-width: 0.1rem; */
+    border-bottom: solid;
+    border-width: 0.2rem;
     border-color: @color14;
 } 
 
@@ -27,7 +27,6 @@ window#waybar {
     font-family: 'JetBrains mono';
 }
 .modules-right { 
-    color: @color14;
     font-size: 1.16rem;
     font-family: 'JetBrains Mono';
     margin-right: 1.5rem;
@@ -95,37 +94,40 @@ window#waybar {
     opacity: 0.5;
 }
 
-
-#custom-wallpaper {
-    margin-right: 0.8rem;
-    font-size: 1rem;
+#backlight {
+    color: @color10;
 }
 #cpu {
+    color: @color7;
     margin-right: 0.3rem;
     font-size: 0.8rem;
 }
 #memory {
+    color: @color1;
     margin-right: 0.3rem;
     font-size: 0.8rem;
 }
 #wireplumber {
+    color: @color14;
     font-size: 1rem;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
 }
 #battery {
+    color: @color15;
     font-size: 1rem;
 }
 #clock {
+    color: @color4;
     font-size: 1rem;
 }
 #network {
+    color: @color5;
     font-size: 1rem;
 }
 #custom-notification {
+    color: @color13;
     font-size: 1rem;
 }
-/*
-#backlight,
-*/
+
 

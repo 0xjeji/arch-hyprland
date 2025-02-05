@@ -116,7 +116,7 @@
     "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
   },
   "clock": {
-    "format": "{:%H:%M}",
+    "format": "{:%I:%M %p}",
     "tooltip": "true",
     "tooltip-format": "{:%Y-%m-%d}"
   },
