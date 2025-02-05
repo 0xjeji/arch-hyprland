@@ -1,121 +1,139 @@
 // -*- mode: jsonc -*-
 {
-    "layer": "top",
-    "spacing": 8, // Gaps between modules (4px)
-    "margin-top": 8,
-    "margin-left": 10,
-    "margin-right": 10,
-    
-    "modules-left": [
-        "custom/powermenu",
-        "custom/separator",
-        "hyprland/workspaces"
-    ],
-    "modules-center": [
-        "hyprland/window"
-    ],
-    "modules-right": [
-        "backlight",
-        "custom/separator",
-        "cpu",
-        "memory",
-        "network",
-        "wireplumber",
-        "battery",
-        "custom/separator",
-        "clock",
-        "custom/separator",
-        "custom/notification"
-    ],
-
-    //Modules Configuration
-    "custom/separator": {
-        "format": "|",
-        "tooltip": false
+  "layer": "top",
+  "spacing": 8, // Gaps between modules (4px)
+  "margin-top": 8,
+  "margin-left": 10,
+  "margin-right": 10,
+  "modules-left": [
+    "custom/powermenu",
+    "custom/separator",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "hyprland/window"
+  ],
+  "modules-right": [
+    "backlight",
+    "custom/separator",
+    "cpu",
+    "memory",
+    "network",
+    "wireplumber",
+    "battery",
+    "custom/separator",
+    "clock",
+    "custom/separator",
+    "custom/notification"
+  ],
+  //Modules Configuration
+  "custom/separator": {
+    "format": "|",
+    "tooltip": false
+  },
+  "custom/powermenu": {
+    "format": "󰈸",
+    "on-click": "~/.config/rofi/powermenu/type-6/powermenu.sh",
+    "on-click-right": "killall rofi",
+    "tooltip-format": "Do you want to know?"
+  },
+  "custom/wallpaper": {
+    "format": "",
+    "on-click": "~/.config/hypr/scripts/change_wallpaper.sh ~/wallpapers",
+    "tooltip-format": "Change wallpaper"
+  },
+  "custom/notification": {
+    "format": "",
+    "on-click": "swaync-client -op"
+  },
+  "hyprland/workspaces": {
+    "active-only": false,
+    "disable-scroll": true,
+    "format": "{icon}",
+    "on-click": "activate",
+    "format-icons": {
+      "1": "󰋑",
+      "2": "",
+      "3": "",
+      "4": "󰞅",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "󰠪",
+      "9": "󰆘",
+      "10": ""
     },
-    "custom/powermenu": {
-        "format": "󰈸",
-        "on-click": "~/.config/rofi/powermenu/type-6/powermenu.sh",
-        "on-click-right": "killall rofi",
-        "tooltip-format": "Do you want to know?"
-    },
-    "custom/wallpaper": {
-        "format": "",
-        "on-click": "~/.config/hypr/scripts/change_wallpaper.sh ~/wallpapers",
-        "tooltip-format": "Change wallpaper"
-    },
-    "custom/notification": {
-        "format": "",
-        "on-click": "swaync-client -op"
-    },
-    "hyprland/workspaces": {
-        "active-only": false,
-        "disable-scroll": true,
-        "format": "{icon}",
-        "on-click": "activate",
-        "format-icons": {
-            "1": "󰋑",
-            "2": "",
-            "3": "",
-            "4": "󰞅",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": "󰠪",
-            "9": "󰆘",
-            "10": ""
-        },
-        "persistent-workspaces": {
-            "*": 10
-        }
-    },
-    "hyprland/window": {
-        "format": "{title}",
-        "max-length": 22
-    },
-    "cpu": {
-        "format": "  {usage}%",
-        "interval": 1
-    },
-    "memory": {
-        "format": "🎞️ {percentage}%",
-        "interval": 5
-    },
-    "backlight": {
-        "interval": 30,
-        "format": "{icon}",
-        "tooltip-format": "{percent}%",
-        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " ", "󰖨 "],
-        "on-scroll-up": "brightnessctl set +10%",
-        "on-scroll-down": "brightnessctl set 10%-"
-    },
-    "network": {
-        "format-wifi": "󰤨 ",
-        "format-ethernet": " ",
-        "format-disconnected": "󰤭 ",
-        "interval": 10,
-        "tooltip-format": "{essid} {signalStrength}%"
-    },
-    "wireplumber": {
-        "scroll-step": 1,
-        "format": "{icon} {volume}%",
-        "format-icons": ["", ""],
-        "format-muted": " ",
-        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
-    },
-    "clock": {
-        "format": "{:%H:%M}",
-        "tooltip": "true",
-        "tooltip-format": "{:%Y-%m-%d}"
-    },
-    "battery": {
-        "interval": 30,
-        "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{icon} {capacity}%",
-        "format-icons": [" ", " ", " ", " ", " "]
+    "persistent-workspaces": {
+      "*": 10
     }
+  },
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 22
+  },
+  "cpu": {
+    "format": "  {usage}%",
+    "interval": 1
+  },
+  "memory": {
+    "format": " {percentage}%",
+    "interval": 5
+  },
+  "backlight": {
+    "interval": 30,
+    "format": "{icon}",
+    "tooltip-format": "{percent}%",
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "󰖨 "
+    ],
+    "on-scroll-up": "brightnessctl set +10%",
+    "on-scroll-down": "brightnessctl set 10%-"
+  },
+  "network": {
+    "format-wifi": "󰤨 ",
+    "format-ethernet": " ",
+    "format-disconnected": "󰤭 ",
+    "interval": 10,
+    "tooltip-format": "{essid} {signalStrength}%"
+  },
+  "wireplumber": {
+    "scroll-step": 1,
+    "format": "{icon} {volume}%",
+    "format-icons": [
+      "",
+      ""
+    ],
+    "format-muted": " ",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+  },
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip": "true",
+    "tooltip-format": "{:%Y-%m-%d}"
+  },
+  "battery": {
+    "interval": 30,
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ]
+  }
 }
