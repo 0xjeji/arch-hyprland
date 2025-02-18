@@ -1,4 +1,4 @@
-https://github.com/user-attachments/assets/0d211a40-8c17-4417-a28f-7d3cbb551bba
+https://github.com/user-attachments/assets/7c08fbbe-8e80-491d-83b8-ec6575427353
 
 ## Required 
 - kitty
@@ -27,4 +27,5 @@ https://github.com/user-attachments/assets/0d211a40-8c17-4417-a28f-7d3cbb551bba
 - obs studio
 - vlc (for media)
 - calibre
+
 for extra info/utilities - https://wiki.hyprland.org/Hypr-Ecosystem/
