@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # This script will randomly select a file from a directory and set it
 # up as the wallpaper. It will also change colors using pywal
