@@ -11,7 +11,7 @@ fi
 
 # Edit below to control the images transition and the history size
 export SWWW_TRANSITION_FPS=60
-HISTORY_SIZE=9
+HISTORY_SIZE=20
 HISTORY_FILE="$HOME/.wallpaper_history"
 
 # Ensure the history file exists
