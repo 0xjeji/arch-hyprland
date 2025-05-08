@@ -1,3 +1,3 @@
 return {
-  { "mfussenegger/nvim-jdtls", enabled = false },
+  -- { "mfussenegger/nvim-jdtls", enabled = false },
 }
